@@ -251,12 +251,20 @@ body {
 
 .opinion-heading-title {
     font-size: 40px;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
     color: #0E0E0E;
     font-weight: 700;
 }
 
 .opinion-table {
+    background-color: #7cf5bc;
+    border-radius: 24px;
     font-size: 18px;
+}
+
+.opinion-heading-table {
+    border-radius: 24px;
 }
 
 /*news-bolg-main*/
