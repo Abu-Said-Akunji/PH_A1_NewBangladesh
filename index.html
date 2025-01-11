@@ -23,6 +23,35 @@
             /* Light green background */
             cursor: pointer;
         }
+
+        table {
+            border-collapse: collapse;
+            height: 100%;
+            width: 100%;
+        }
+
+        th {
+            background-color: #91fff9;
+            /* Change this to your desired color */
+            color: rgb(0, 0, 0);
+            /* Text color */
+            padding: 15px;
+            text-align: left;
+        }
+
+        td {
+            padding: 15px;
+            text-align: left;
+            font-size: 16px;
+        }
+
+        select {
+            width: 100%;
+            padding: 10px;
+            font-size: 18px;
+            height: 50px;
+            box-sizing: border-box;
+        }
     </style>
 </head>
 
@@ -153,6 +182,7 @@
 
             </div>
         </section>
+
         <!-- Dr. Muhammad Yunus part open -->
         <section class="yunus-sec-main">
             <div class="yunus-div">
@@ -168,6 +198,53 @@
                 <h5 class="yunus-subtitle">Chief Adviser of the People's Republic of Bangladesh</h5>
             </div>
         </section>
+
+        <!-- opinion table-->
+
+        <section class="opinion-sec-main">
+            <br>
+            <br>
+            <div class="opinion-heading-title">
+                <h2>Your Opinion Matters</h2><br>
+            </div>
+
+            <div class="opinion-table">
+                <table>
+                    <tr>
+                        <th>Questions</th>
+                        <th>Select Your Opinion</th>
+                    </tr>
+                    <tr>
+                        <td>Do You Believe Bangladesh is on the right path toward becoming a developed nation?</td>
+                        <td>
+                            <select>
+                                <option value="option1">Yes, I Agree</option>
+                                <option value="option2">No, I Don't Agree</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Do You Believe Bangladesh is on the right path toward becoming a developed nation?</td>
+                        <td>
+                            <select>
+                                <option value="option1">Yes, I Agree</option>
+                                <option value="option2">No, I Don't Agree</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Do You Believe Bangladesh is on the right path toward becoming a developed nation?</td>
+                        <td>
+                            <select>
+                                <option value="option1">Yes, I Agree</option>
+                                <option value="option2">No, I Don't Agree</option>
+                            </select>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+
         <!--- ----news blogs open-------- -->
         <section class="news-bolg-main">
             <!-- news-heading- -->
@@ -274,7 +351,21 @@
             <!-- donate taka box -->
             <div class="donate-price-box">
                 <input type="text" class="donate-input" placeholder="Other Amount (Taka)">
-                <button class="btn donate-btn">Donate Now</button>
+                <button class="btn donate-btn">Donate Now</button><br>
+            </div>
+        </section>
+        <section class="subscribe-newsletter">
+            <div class="subscribe-main-box">
+                <br><br>
+                <h3><b>Subscribe Newsletter</b></h3>
+                <h5>Bangladesh 2.0 aims to define the nation's trajectory by embracing cutting-edge<br>technology,
+                    promoting inclusive growth</h5>
+            </div>
+            <div class="subscibe-bttn">
+                <button class="btn subscribe-btn">Donate Now</button>
+            </div>
+            <div class="subscribe-footer">
+                <h5>We promise not to spam you!</h5>
             </div>
         </section>
     </main>
