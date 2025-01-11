@@ -244,15 +244,15 @@ body{
     padding: 40px 40px;
     font-size: 40px;
     font-weight: 700;
-    background-color: #9bf8e4;
+    background-color: rgb(121, 247, 127);
     border-radius: 16px;
-    border: 1px solid #9bf8e4;
+    border: 1px solid rgb(121, 247, 127);
 }
 .donate-box:hover{
     background-color: #fa5e5e;
 }
 .donate-two{
-    background-color: #f89393;
+    background-color: #66ffff;
 }
 .donate-price-box{
     display: flex;
