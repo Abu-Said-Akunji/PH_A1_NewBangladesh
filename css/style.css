@@ -386,7 +386,40 @@ body {
 
 /*--subscribe Newsletter--*/
 .subscribe-main-box {
-    background-color: #66ffff;
+    background-color: #c6f8ed;
+    text-align: center;
+    color: #000000;
+    padding-top: 32px;
+}
+
+.subs-title {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    color: #0E0E0E;
+}
+
+.subs-dec {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    color: #1f1e1eb2;
+    padding-top: 32px;
+}
+
+.subscribe-btn-div {
+    text-align: right;
+}
+
+.subscribe-btn {
+    background-color: #b0ffa5;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.subscribe-footer {
+    background-color: #c6f8ed;
     text-align: center;
     color: #000000;
     padding-top: 32px;
